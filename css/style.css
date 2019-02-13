@@ -1,0 +1,298 @@
+.header {
+	z-index: 10;
+	padding: 65px 90px;
+}
+
+.nav {
+	justify-content: flex-end;
+}
+
+.nav li a {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.nav li a:hover {
+	text-decoration: underline;
+}
+
+.carousel-indicators {
+	bottom: 50px;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+.carousel-indicators .active {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+}
+
+.carousel-caption {
+	bottom: 25%;
+	left: 0;
+	right: 39%;
+}
+
+.carousel-caption .btn {
+	width: 170px;
+	height: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.carousel-caption .btn.btn-light {
+	color: #522981;
+}
+
+.carousel-caption .btn.btn-outline-light {
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+.carousel-caption .btn.btn-outline-light:hover {
+	background-color: transparent;
+}
+
+.products {
+	margin-top: 105px;
+}
+
+.search .form-control {
+	border-radius: 5px;
+	border: 1px solid #e3e3e3;
+	border-right: 0px;
+}
+
+.search .btn {
+	border-radius: 5px;
+}
+
+.search .btn.btn-outline-secondary {
+	border: 1px solid #e3e3e3;
+	border-left: 0px;
+}
+
+.search .btn.btn-outline-secondary:hover {
+	background-color: transparent;
+	color: #000;
+}
+
+.productlist .col {
+	min-width: 23%;
+	max-width: 31%;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	margin: 15px;
+}
+
+.productlist .product-name {
+	font-family: 'Oswald', sans-serif;
+	color: #444343;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.productlist .product-image {
+	width: 100%;
+	height: 80%;
+}
+
+.banner {
+	margin-top: 105px;
+	margin-bottom: 170px;
+}
+
+.banner .row {
+	margin: 0px;
+}
+
+.banner .col-md-6 {
+	padding: 0px;
+}
+
+.banner-image-content {
+	z-index: 10;
+	width: 50%;
+	margin-left: 50px;
+	margin-top: 350px;
+}
+
+.banner h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	font-size: 33px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.banner span {
+	font-family: 'Lato', sans-serif;
+	color: #7c8b95;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.banner a {
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) { 
+	.header {
+		padding: 20px 20px;
+	}
+
+	.nav {
+		justify-content: flex-start;
+	}
+
+	.nav li a {
+		font-size: 12px;
+	}
+
+	.carousel-indicators {
+		bottom: 10px;
+	}
+
+	.products {
+		margin-top: 55px;
+	}
+
+	.productlist .col {
+		min-width: 95%;
+	}
+
+	.banner {
+		margin-top: 55px;
+		margin-bottom: 70px;
+	}
+
+	.banner-image-content {
+		margin-top: 200px;
+		width: 80%;
+		margin-left: 10px;
+	}
+
+	.banner span {
+		display: none;
+	}
+
+	.banner a {
+		font-size: 12px;
+		margin-top: 0px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.carousel-indicators {
+		bottom: 10px;
+	}
+
+	.products {
+		margin-top: 55px;
+	}
+
+	.productlist .col {
+		min-width: 43%;
+		max-width: 45%;
+	}
+
+	.banner {
+		margin-top: 55px;
+		margin-bottom: 70px;
+	}
+
+	.banner-image-content {
+		margin-top: 320px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.carousel-indicators {
+		bottom: 10px;
+	}
+	.carousel-caption {
+		right: 25%;
+	}
+
+	.productlist .col {
+		min-width: 23%;
+		max-width: 29%;
+	}
+
+	.banner-image-content {
+		margin-top: 180px;
+	}
+
+	.banner h2 {
+		font-size: 18px;
+	}
+
+	.banner span {
+		font-size: 11px;
+	}
+
+	.banner a {
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.carousel-indicators {
+		bottom: 10px;
+	}
+
+	.carousel-caption {
+		right: 30%;
+	}
+
+	.productlist .col {
+		min-width: 23%;
+		max-width: 30.5%;
+	}
+
+	.banner-image-content {
+		margin-top: 320px;
+	}
+
+	.banner h2 {
+		font-size: 23px;
+	}
+
+	.banner span {
+		font-size: 12px;
+	}
+
+	.banner a {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+}
+
+
+
